@@ -55,7 +55,7 @@ var methods = {};
             $el.on("keyup", onKeyUp);
 
             ui.initUI(localOptions, $el);
-            if ($.trim($el.val()) { // Not empty, calculate the strength
+            if ($.trim($el.val())) { // Not empty, calculate the strength
                 $el.trigger("keyup");
             }
 
